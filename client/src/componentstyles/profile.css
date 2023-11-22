@@ -1,0 +1,58 @@
+.headerprofile {
+    position: relative;
+    background: linear-gradient(92deg, #003366, #004080, #0059b3, #0073e6);
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adjust as needed */
+    position: relative;
+    border-color: white;
+  }
+  body{
+    background-color: rgb(245, 241, 241);
+
+  }
+  .headerprofile::before,
+  .headerprofile::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border: 65px solid transparent;
+
+  }
+  
+  .headerprofile::before {
+    left: 0;
+    border-left-color: white; /* Color of the border */
+  }
+  
+  .headerprofile::after {
+    right: 0;
+    border-right-color: #fff; /* Color of the border */
+  }
+  
+  p, h1 {
+    margin: 2px;
+  }
+  
+  .addtask{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+
+  .task{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-bottom:50px ;
+  }

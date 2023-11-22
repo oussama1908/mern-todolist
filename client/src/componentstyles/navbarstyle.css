@@ -1,0 +1,59 @@
+/* componentstyles/navbarstyle.css */
+
+.navbar-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(245, 241, 241);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-todo {
+  color: #007bff;
+  font-weight: bold;
+  margin-right: 20px; /* Adjust as needed */
+  font-size: 30px;
+  margin-left: 80px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.navbar-link:last-child {
+  margin-right: 0;
+}
+/* Add this style for the Facebook-style button */
+.facebook-button {
+  cursor: pointer;
+  background-color: #1877f2; /* Facebook's primary blue color */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Add this style for the space between elements inside the container */
+.navbar-container > * {
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Add this style to remove margin from the last child */
+.navbar-container > *:last-child {
+  margin-right: 0;
+}

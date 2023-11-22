@@ -1,0 +1,60 @@
+ .addtasksbackground{
+    width: 1450px;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1877f2; /* Facebook's primary blue color */
+
+}
+
+form {
+    display:flex;
+    flex-direction: row;
+    gap:15px;
+   
+  padding:30px;
+
+}
+.textarea-style{
+    width:670px;
+    height: 25px;
+    border:1px solid rgb(116, 116, 211);
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding:3px;
+
+}
+.title-style{
+    width:150px;
+    padding:3px;
+    border:1px solid rgb(116, 116, 211);
+    margin-top: 20px;
+}
+
+label{
+    margin-top:25px
+}
+
+.date-style{
+    margin-top: 20px;
+    width:120px;
+    border:1px solid #1877f2;
+    color: #1877f2; /* Facebook's primary blue color */
+    padding: 3px;
+}
+
+.button-addtask{
+    left: -100%;
+    background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+  , #0073e6);
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    color:white;
+    height: 35px;
+    font-size: 20px;
+    margin-top:20px;
+    font-size: 15px;
+    border:1px;
+}
